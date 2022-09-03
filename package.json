@@ -2,6 +2,7 @@
   "name": "practic-react",
   "version": "1.0.0",
   "description": "",
+"homepage":"https://https://javi-salas-dev.github.io/practic-react-shop/",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
