@@ -16,7 +16,7 @@ module.exports = {
     alias: {
       '@components': path.resolve(__dirname, 'src/components/'),
       '@containers': path.resolve(__dirname, 'src/containers/'),
-      '@styles': path.resolve(__dirname, './src/styles/'),
+      '@styles': path.resolve(__dirname, 'src/styles/'),
       '@icons': path.resolve(__dirname, 'src/assets/icons/'),
       '@logos': path.resolve(__dirname, 'src/assets/logos/'),
 
@@ -32,7 +32,7 @@ module.exports = {
             }
         },
         {
-        test: /\.(png|jpg|svg|jpeg|web|svg)$/,
+        test: /\.(png|jpg|jpeg|web|svg)$/,
         type: 'asset/resource',
         generator: {
           filename: "public/[hash][ext]",

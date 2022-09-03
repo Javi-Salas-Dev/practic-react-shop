@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/productoInfo.scss';
 
+import icon from '@icons/bt_add_to_cart.svg';
+
 const ProductoInfo = () => {
     return (
         <>
@@ -10,7 +12,7 @@ const ProductoInfo = () => {
                 <p>Bike</p>
                 <p>With its practical position, this bike also fulfills a decorative function, add your hall or workspace.</p>
                 <button className="primary-button add-to-cart-button">
-                    <img src="./bt_add_to_cart.svg" alt="add to cart" />
+                <img src={icon} alt="add to cart" />
                     Add to cart
                 </button>
             </div>
