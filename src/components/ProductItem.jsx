@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import '../styles/ProductItem.scss';
+import '../styles/productItem.scss';
 import AppContext from '../context/AppContext';
 
 const ProductItem = ({ product }) => {
