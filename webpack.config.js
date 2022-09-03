@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',  //empaquetado
-    publicPath: '/' //para las rutas
+    publicPath: './' //para las rutas
   },
   mode: 'development',
   resolve: {
