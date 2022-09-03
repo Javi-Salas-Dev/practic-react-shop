@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './src/styles/login.scss';
+import '../styles/login.scss';
 
 const Login = () => {
 	const form = useRef(null);
