@@ -4,6 +4,7 @@ import MyOrder from '../containers/MyOrder';
 import Menu from '../components/Menu';
 import AppContext from '../context/AppContext';
 
+import icon_menu from '@icons/icon_menu.svg';
 import logo from '@logos/logo_yard_sale.svg';
 import icon_cart from '@icons/icon_shopping_cart.svg';
 
@@ -18,7 +19,7 @@ const Header = () => {
 	}
     return (
         <nav>
-			<img src="./icons/icon_menu.svg" alt="menu" className="menu" />
+			<img src={icon_menu} alt="menu" className="menu" />
 			<div className="navbar-left">
 				<img src={logo} alt="logo" className="nav-logo" />
 				<ul>
