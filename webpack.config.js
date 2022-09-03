@@ -32,6 +32,13 @@ module.exports = {
             }
         },
         {
+        test: /\.(png|jpg|svg|jpeg|web|svg)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: "public/[hash][ext]",
+        },
+      },
+        {
             test: /\.html$/,
             use: [
                 {
@@ -47,10 +54,6 @@ module.exports = {
       "sass-loader",
     ],
   },
-  {
-    test: /\.(jpg|png|svg|gif)$/,
-    type: 'asset'
-  }
     ]
 },
   plugins: [
